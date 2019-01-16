@@ -44,7 +44,7 @@ Route::post('form/uploadfile/update', 'UploadFileController@update')->name('upda
 Route::get('form/uploadfile/delete/{id}', 'UploadFileController@delete')->name('deleteuploadfile');
 Route::get('form/uploadfile/download/{file}', 'UploadFileController@download')->name('downloaduploadfile');
 
-Route::get('cekabsensi', 'UploadFileController@index')->name('adduploadfile');
-Route::get('cekabsensi/add', 'UploadFileController@add')->name('adduploadfile');
-Route::post('cekabsensi/save', 'UploadFileController@save')->name('saveuploadfile');
-Route::get('cekabsensi/delete/{id}', 'UploadFileController@delete')->name('deleteuploadfile');
+Route::get('cekabsensi', 'CekAbsensiController@index');
+Route::get('webcam/index', 'WebcamController@index');
+Route::post('cekabsensi/save', 'CekAbsensiController@save');
+Route::get('cekabsensi/delete/{id}', 'CekAbsensiController@delete');
