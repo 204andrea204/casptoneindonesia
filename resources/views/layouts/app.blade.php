@@ -11,13 +11,22 @@
 
     <!-- Scripts -->
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> cdb8a7b65944344a286b59b6b0c34fffc086d79f
     <!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet" type="text/css">
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+<<<<<<< HEAD
+=======
+    <link href="{{ asset('fontawesome-free-5.6.3-web/css/fontawesome.css') }}" rel="stylesheet">
+    <link href="{{ asset('fontawesome-free-5.6.3-web/css/all.css') }}" rel="stylesheet">
+
+>>>>>>> cdb8a7b65944344a286b59b6b0c34fffc086d79f
 </head>
 <body>
     <div id="app">
@@ -49,6 +58,16 @@
                                 </li>
                             @endif
                         @else
+<<<<<<< HEAD
+=======
+                        <li><a class="nav-link" href="{{ url('admin/kelebihan') }}">{{ __('Kelebihan') }}</a></li>
+                        <li><a class="nav-link" href="{{ url('admin/pelayanan') }}">{{ __('Pelayanan') }}</a></li>
+                        <li><a class="nav-link" href="{{ url('admin/portofolio') }}">{{ __('Portofolio') }}</a></li>
+                        <li><a class="nav-link" href="{{ url('admin/slideshow') }}">{{ __('Slideshow') }}</a></li>              
+                        <li><a class="nav-link" href="{{ url('admin/about') }}">{{ __('About') }}</a></li>
+                        <li><a class="nav-link" href="{{ url('admin/about2') }}">{{ __('About2') }}</a></li>
+                        <li><a class="nav-link" href="{{ url('admin/newsletter') }}">{{ __('Newsletter') }}</a></li>
+>>>>>>> cdb8a7b65944344a286b59b6b0c34fffc086d79f
                             <li class="nav-item dropdown">
                                 <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
                                     {{ Auth::user()->name }} <span class="caret"></span>
@@ -77,10 +96,17 @@
         </main>
     </div>
 
+<<<<<<< HEAD
     <script src="/vendor/unisharp/laravel-ckeditor/ckeditor.js"></script>
     <script>
         CKEDITOR.replace( 'ckeditor' );
     </script>
+=======
+<script src="{{asset('vendor/unisharp/laravel-ckeditor/ckeditor.js')}}"></script>
+<script>
+    CKEDITOR.replace( 'ckeditor' );
+</script>
+>>>>>>> cdb8a7b65944344a286b59b6b0c34fffc086d79f
 
 </body>
 </html>

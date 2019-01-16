@@ -161,6 +161,10 @@ return [
         Illuminate\Translation\TranslationServiceProvider::class,
         Illuminate\Validation\ValidationServiceProvider::class,
         Illuminate\View\ViewServiceProvider::class,
+<<<<<<< HEAD
+=======
+        Unisharp\Ckeditor\ServiceProvider::class,
+>>>>>>> cdb8a7b65944344a286b59b6b0c34fffc086d79f
 
         /*
          * Package Service Providers...
@@ -174,7 +178,10 @@ return [
         // App\Providers\BroadcastServiceProvider::class,
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
+<<<<<<< HEAD
         Unisharp\Ckeditor\ServiceProvider::class,
+=======
+>>>>>>> cdb8a7b65944344a286b59b6b0c34fffc086d79f
 
     ],
 
